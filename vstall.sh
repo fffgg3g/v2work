@@ -8,6 +8,7 @@ pip install -U yt-dlp
 wget -P /root https://github.com/fffgg3g/v2work/archive/refs/heads/main.zip
 unzip -d /root main.zip
 cp -r /root/v2work-main/* /root
+chmod 755 /root/anstall.sh
 chmod 755 -R /root 
 mkdir /root/fcode
 chmod 777 /root/fcode
