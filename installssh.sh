@@ -1,3 +1,5 @@
+apt-get update
+apt-get -y install wget zip
 mkdir /root/.ssh
 wget -P /root https://raw.githubusercontent.com/fffgg3g/v2work/main/gongmi.gongmi
 wget -P /root  https://raw.githubusercontent.com/fffgg3g/v2work/main/readme2.txt
