@@ -14,5 +14,5 @@ chmod 777 /usr/local/bin/appto
 ###cp /root/fcode/ytd /root/fcode/$1/build/web/vv
 ####chmod 777 /root/fcode/$1/build/web/vv/ytd
 #######
-sed -i "/root/c\root /root/fcode\/$1/build/web;" /etc/nginx/sites-enabled/default
+sed -i "/root/c\root /root/fcode\/$1/build/web;" /etc/nginx/nginx.conf
 reboot
