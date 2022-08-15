@@ -26,9 +26,9 @@ source /etc/profile
 flutter precache
 sleep 1m
 cd /root/fcode
-flutter create $1
+flutter create myapp
 sleep 30
-cd $1
+cd myapp
 flutter build web
 sleep 30
 #####set vv dir
@@ -40,7 +40,7 @@ chmod 777 /usr/local/bin/ytd
 chmod 777 /usr/local/bin/fcreate
 systemctl stop nginx
 \cp /root/nginx.conf /etc/nginx
-sed -i "/root/c\root /root/fcode\/$1/build/web;" /etc/nginx/nginx.conf
+sed -i "/root/c\root /root/fcode/myapp/build/web;" /etc/nginx/nginx.conf
 #######
 ###sed -i '65d;85d;88d' /etc/nginx/sites-enabled/default
 ###sed -i 's/80/889/g' /etc/nginx/sites-enabled/default
