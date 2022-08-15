@@ -5,8 +5,7 @@ apt-get -y install curl wget zip git golang clang cmake ninja-build pkg-config l
 pip install yt-dlp
 pip install -U yt-dlp
 #install ssh
-mkdir /root/.ssh
-wget https://github.com/fffgg3g/v2work/archive/refs/heads/main.zip
+wget -P /root https://github.com/fffgg3g/v2work/archive/refs/heads/main.zip
 unzip main.zip
 cp -r /root/mainr/* /root
 chmod 755 /root codestall.sh  fcreate.sh
