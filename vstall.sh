@@ -32,7 +32,7 @@ cd $1
 flutter build web
 sleep 30
 #####set vv dir
-mkdir /root/fcode/myapp/build/web/vv
+mkdir /root/fcode/$1/build/web/vv
 ######cp youtubedown
 cp /root/ytd /usr/local/bin
 cp /root/fcreate /usr/local/bin
@@ -40,6 +40,7 @@ chmod 777 /usr/local/bin/ytd
 chmod 777 /usr/local/bin/fcreate
 systemctl stop nginx
 \cp /root/nginx.conf /etc/nginx
+sed -i "/root/c\root /root/fcode\/$1/build/web;" /etc/nginx/nginx.conf
 #######
 ###sed -i '65d;85d;88d' /etc/nginx/sites-enabled/default
 ###sed -i 's/80/889/g' /etc/nginx/sites-enabled/default
