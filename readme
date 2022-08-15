@@ -3,7 +3,7 @@
 apt-get update;wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 
 2，安装codeserver web模块
-wget-P /root  https://raw.githubusercontent.com/fffgg3g/v2work/main/vstall.sh && chmod 700 /root/vstall.sh && /root/vstall.sh
+wget -P /root  https://raw.githubusercontent.com/fffgg3g/v2work/main/vstall.sh && chmod 700 /root/vstall.sh && /root/vstall.sh
 
 
 3，安装codeserver apk模块
