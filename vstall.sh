@@ -32,7 +32,7 @@ cd myapp
 flutter build web
 sleep 30
 #####set vv dir
-mkdir /root/fcode/$1/build/web/vv
+mkdir /root/fcode/myapp/build/web/vv
 ######cp youtubedown
 cp /root/ytd /usr/local/bin
 cp /root/fcreate /usr/local/bin
