@@ -34,7 +34,9 @@ sleep 30
 mkdir /root/fcode/myapp/build/web/vv
 ######cp youtubedown
 cp /root/ytd /usr/local/bin
+cp /root/fcreate /usr/local/bin
 chmod 777 /usr/local/bin/ytd
+chmod 777 /usr/local/bin/fcreate
 systemctl stop nginx
 \cp /root/nginx.conf /etc/nginx
 #######
