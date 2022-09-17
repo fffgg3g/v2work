@@ -17,7 +17,7 @@ curl -fsSL https://code-server.dev/install.sh | sh
 systemctl enable --now code-server@$USER
 systemctl enable --now nginx
 sleep 30s
-sed -i '/bind-addr:/c\bind-addr: 0.0.0.0:888' /root/.config/code-server/config.yaml
+sed -i '/bind-addr:/c\bind-addr: 0.0.0.0:881' /root/.config/code-server/config.yaml
 sed -i '/password:/c\password: rui333435' /root/.config/code-server/config.yaml
 git clone https://github.com/flutter/flutter.git -b stable
 sed -i '$a\export PATH="$PATH:/root/flutter/bin"' /etc/profile
@@ -34,8 +34,13 @@ sleep 30
 #####set vv dir
 mkdir /root/fcode/myapp/build/web/vv
 ######cp youtubedown
+###set cert##
+mkdir /etc/nginx/certd
+cp /root/fullchain.crt /etc/nginx/certd
+cp /root/private.pem  /etc/nginx/certd
 cp /root/ytd /usr/local/bin
 cp /root/fcreate /usr/local/bin
+
 chmod 777 /usr/local/bin/ytd
 chmod 777 /usr/local/bin/fcreate
 systemctl stop nginx
