@@ -9,14 +9,12 @@ apt-get update;wget -P /root -N --no-check-certificate "https://raw.githubuserco
 3，安装codeserver apk模块
 nohup ./anstall.sh &
 
-
+换域名
 ./snginx dnsnamepre
 
 4,安装ssh
 ./installssh.sh
 
-
 appto
-
-
+/root/fcode/myapp/build/web/vv
 ytd 要去vv目录下
