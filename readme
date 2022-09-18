@@ -10,11 +10,11 @@ apt-get update;wget -P /root -N --no-check-certificate "https://raw.githubuserco
 nohup ./anstall.sh &
 
 换域名
-./snginx dnsnamepre
+./snginx.sh dnsnamepre
 
 4,安装ssh
 ./installssh.sh
 
 appto
-/root/fcode/myapp/build/web/vv
+cd /root/fcode/myapp/build/web/vv
 ytd 要去vv目录下
