@@ -9,8 +9,12 @@ apt-get update;wget -P /root -N --no-check-certificate "https://raw.githubuserco
 3，安装codeserver apk模块
 nohup ./anstall.sh &
 
+
+./snginx dns
+
 4,安装ssh
 ./installssh.sh
+
 
 appto
 
