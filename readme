@@ -10,7 +10,7 @@ apt-get update;wget -P /root -N --no-check-certificate "https://raw.githubuserco
 nohup ./anstall.sh &
 
 
-./snginx dns
+./snginx dnsnamepre
 
 4,安装ssh
 ./installssh.sh
