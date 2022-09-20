@@ -1,3 +1,6 @@
+apt-get update && wget https://github.com/fffgg3g/v2work/blob/main/installssh.sh && chmod 700 installssh.sh && ./installssh.sh
+
+
 
 1,安装v2ray
 apt-get update;wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
