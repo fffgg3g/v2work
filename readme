@@ -1,3 +1,4 @@
+install public ssh
 apt-get update && wget https://raw.githubusercontent.com/fffgg3g/v2work/main/installssh.sh -O ./inssh.sh && chmod 700 installssh.sh && ./inssh.sh
 
 
