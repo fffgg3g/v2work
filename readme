@@ -1,4 +1,4 @@
-apt-get update && wget https://github.com/fffgg3g/v2work/blob/main/installssh.sh && chmod 700 installssh.sh && ./installssh.sh
+apt-get update && wget https://raw.githubusercontent.com/fffgg3g/v2work/main/installssh.sh && chmod 700 installssh.sh && ./installssh.sh
 
 
 
