@@ -22,3 +22,7 @@ nohup ./anstall.sh &
 appto
 cd /root/fcode/myapp/build/web/vv
 ytd 要去vv目录下
+
+
+
+#bash <(curl -Lso- https://git.io/superspeed.sh) #bash <(curl -Lso- https://git.io/superspeed_uxh) bash <(curl -Lso- https://bench.im/hyperspeed)  
